@@ -243,7 +243,7 @@ input space is large or the risk of defects is high.
   or similar), never hard-coded. Locally, a reduced number may be used so that
   the suite stays fast – long waits on unit tests harm acceptance. Before
   **production acceptance**, every fuzzing test must have run green with at least
-  **20,000 runs**; the reduced local run does not replace this full run
+  *50,000 runs** (rather more); the reduced local run does not replace this full run
   (execution: Section 9).
 - **Tool choice is ecosystem-specific:** Whether a property-based framework or a
   coverage-guided fuzzer – what matters is the principle, not the tool (see
