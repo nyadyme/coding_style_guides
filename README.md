@@ -94,6 +94,7 @@ Every guide follows a consistent structure adapted to the language:
 | [perl6_style_guide.md](perl6/perl6_style_guide.md) | Raku (Perl 6) | Raku Documentation, Think Raku, Perl 6 Deep Dive |
 | [csharp_style_guide.md](csharp/csharp_style_guide.md) | C# | Microsoft C# Coding Conventions, .NET Framework Design Guidelines, C# in Depth |
 | [html_css_style_guide.md](html_css/html_css_style_guide.md) | HTML5 / CSS | WHATWG HTML Living Standard, W3C CSS, Google HTML/CSS Style Guide, WCAG 2.1 |
+| [unit-test-guide.md](unit-tests/unit-test-guide.md) | unittests | Unittests Guide |
 
 ## AI-Assisted Development
 
@@ -128,6 +129,7 @@ prose or examples, designed for direct consumption by AI code assistants:
 | [ai_rules_perl6.md](perl6/ai_rules_perl6.md) | Raku (Perl 6) |
 | [ai_rules_csharp.md](csharp/ai_rules_csharp.md) | C# |
 | [ai_rules_html_css.md](html_css/ai_rules_html_css.md) | HTML5 / CSS |
+| [ai_rules_unit-tests.md](unit-tests/ai_rules_unit-tests.md) | unit-tests |
 
 Use the full style guide as a reference for humans; use the `ai_rules_*` file
 as context input for your AI tool of choice.
@@ -136,7 +138,7 @@ as context input for your AI tool of choice.
 
 ## Project Organization
 
-All 16 language guides are organized in dedicated subfolders for easy navigation:
+All 17 guides are organized in dedicated subfolders for easy navigation:
 
 ```
 coding_style_rules/
@@ -158,7 +160,10 @@ coding_style_rules/
 ├── perl5/
 ├── perl6/
 ├── csharp/
-└── html_css/
+├── html_css/
+└── unit-tests/
+
+
 ```
 
 Each language folder contains:
